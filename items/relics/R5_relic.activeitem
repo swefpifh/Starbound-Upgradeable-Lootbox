@@ -1,0 +1,65 @@
+{
+  "itemName": "R5_relic",
+  "itemTags": ["upgradeableRelic"],
+  "inventoryIcon": "relic_upg0.png",
+  "image": "relic_upg0.png",
+  "maxStack": 100,
+  "rarity": "Uncommon",
+  "price": 50,
+  "tooltipKind": "relicSystem6",
+  "twoHanded": true,
+  "shortdescription": "Relic R5",
+  "category": "Improvement ^green;lvl 0^reset;",
+  "description": "An unusually light ancient relic.\n\n^green;Can be improved to change the chances of acquiring rewards.^reset;",
+  
+  "animation": "relics.animation",
+  "animationCustom": {},
+  "scripts": ["relics.lua"],
+  "fireTime": 0.5,
+  "fireOffset": [1.0, 0.0],
+  
+  "poolFilePath": "/treasure/R5_relic.treasurepools",
+  "builder": "/scripts/rsBuildRelics.lua",
+  
+  "upgradeLevel": 0,
+  "treasure": {
+    "pool": "R5_relic_upg0",
+    "level": 1
+  },
+  
+  "upgradeParameters": {
+    "upg1": {
+      "inventoryIcon": "relic_upg1.png",
+	  "price": 75,
+      "category": "Improvement ^green;lvl 1^reset;",
+      "upgradeLevel": 1,
+      "treasure": {
+        "pool": "R5_relic_upg1",
+        "level": 1
+      }
+    },
+    
+    "upg2": {
+      "inventoryIcon": "relic_upg2.png",
+	  "price": 125,
+      "category": "Improvement ^green;lvl 2^reset;",
+      "upgradeLevel": 2,
+      "treasure": {
+        "pool": "R5_relic_upg2",
+        "level": 1
+      }
+    },
+    
+    "upg3": {
+      "inventoryIcon": "relic_upg3.png",
+	  "price": 200,
+      "category": "Improvement ^green;lvl 3^reset;",
+	  "description": "An unusually light ancient relic.\n\n^red;Can't be improved now...^reset;",
+      "upgradeLevel": 3,
+      "treasure": {
+        "pool": "R5_relic_upg3",
+        "level": 1
+      }
+    }
+  }
+}

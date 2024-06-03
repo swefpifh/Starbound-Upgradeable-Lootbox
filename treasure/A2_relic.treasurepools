@@ -1,0 +1,53 @@
+{
+
+	"A2_relic_upg0" : [
+		[1, {
+		  "pool" : [
+			{"weight" : 0.90, "item" : ["fireworkgun", 1] },
+			{"weight" : 0.10, "item" : ["flamethrower", 1] }
+		  ],
+		  "poolRounds" : 1,
+		  "allowDuplication" : false
+		}]
+	],
+	
+	"A2_relic_upg1" : [
+		[1, {
+		  "pool" : [
+			{"weight" : 0.75, "item" : ["fireworkgun", 1] },
+			{"weight" : 0.15, "item" : ["flamethrower", 1] },
+			{"weight" : 0.10, "item" : ["teslastaff", 1] }
+		  ],
+		  "poolRounds" : 1,
+		  "allowDuplication" : false
+		}]
+	],
+	
+	"A2_relic_upg2" : [
+		[1, {
+		  "pool" : [
+			{"weight" : 0.60, "item" : ["fireworkgun", 1] },
+			{"weight" : 0.15, "item" : ["flamethrower", 1] },
+			{"weight" : 0.15, "item" : ["teslastaff", 1] },
+			{"weight" : 0.10, "item" : ["rarerocketlauncher", 1] }
+		  ],
+		  "poolRounds" : 1,
+		  "allowDuplication" : false
+		}]
+	],
+	
+	"A2_relic_upg3" : [
+		[1, {
+		  "pool" : [
+			{"weight" : 0.50, "item" : ["fireworkgun", 1] },
+			{"weight" : 0.15, "item" : ["flamethrower", 1] },
+			{"weight" : 0.15, "item" : ["teslastaff", 1] },
+			{"weight" : 0.15, "item" : ["rarerocketlauncher", 1] },
+			{"weight" : 0.05, "item" : ["adaptablecrossbow", 1] }
+		  ],
+		  "poolRounds" : 1,
+		  "allowDuplication" : false
+		}]
+	]
+
+}

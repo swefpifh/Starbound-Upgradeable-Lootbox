@@ -1,0 +1,71 @@
+{
+  "itemName": "Z1_relic",
+  "itemTags": ["upgradeableRelic"],
+  "inventoryIcon": "relic_upg0.png",
+  "image": "relic_upg0.png",
+  "maxStack": 100,
+  "rarity": "Common",
+  "price": 20,
+  "tooltipKind": "relicSystem2",
+  "twoHanded": true,
+  "shortdescription": "Relic Z1",
+  "category": "Improvement ^green;lvl 0^reset;",
+  "description": "The more you upgrade it, the more items you'll have in your loots table.",
+  
+  "animation": "relics.animation",
+  "animationCustom": {},
+  "scripts": ["relics.lua"],
+  "fireTime": 0.5,
+  "fireOffset": [1.0, 0.0],
+  
+  "poolFilePath": "/treasure/Z1_relic.treasurepools",
+  "builder": "/scripts/rsBuildRelics.lua",
+  
+  "upgradeLevel": 0,
+  "treasure": {
+    "pool": "Z1_relic_upg0",
+    "level": 1
+  },
+  
+  "upgradeParameters": {
+    "upg1": {
+      "tooltipKind": "relicSystem2",
+	  "inventoryIcon": "relic_upg1.png",
+      "rarity": "Uncommon",
+	  "price": 35,
+	  "category": "Improvement ^green;lvl 1^reset;",
+	  "upgradeLevel" : 1,
+      "treasure": {
+        "pool": "Z1_relic_upg1",
+        "level": 1
+      }
+    },
+	
+    "upg2": {
+      "tooltipKind": "relicSystem2",
+	  "inventoryIcon": "relic_upg2.png",
+      "rarity": "Rare",
+	  "price": 55,
+	  "category": "Improvement ^green;lvl 2^reset;",
+	  "upgradeLevel" : 2,
+      "treasure": {
+        "pool": "Z1_relic_upg2",
+        "level": 1
+      }
+    },
+	
+    "upg3": {
+      "tooltipKind": "relicSystem2",
+	  "inventoryIcon": "relic_upg3.png",
+      "rarity": "Legendary",
+	  "price": 80,
+	  "description": "^red;Can't be improved.^reset;",
+	  "category": "Improvement ^green;lvl 3^reset;",
+	  "upgradeLevel" : 3,
+      "treasure": {
+        "pool": "Z1_relic_upg3",
+        "level": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+
+	"Z1_relic_upg0" : [
+		[1, {
+		  "pool" : [
+			{"weight" : 0.90, "item" : ["ironore", 1] },
+			{"weight" : 0.10, "item" : ["ironbar", 1] }
+		  ],
+		  "poolRounds" : 1,
+		  "allowDuplication" : false
+		}]
+	],
+	
+	"Z1_relic_upg1" : [
+		[1, {
+		  "pool" : [
+			{"weight" : 0.90, "item" : ["copperore", 1] },
+			{"weight" : 0.10, "item" : ["copperbar", 1] }
+		  ],
+		  "poolRounds" : 1,
+		  "allowDuplication" : false
+		}]
+	],
+	
+	"Z1_relic_upg2" : [
+		[1, {
+		  "pool" : [
+			{"weight" : 0.90, "item" : ["silverore", 1] },
+			{"weight" : 0.10, "item" : ["silverbar", 1] }
+		  ],
+		  "poolRounds" : 1,
+		  "allowDuplication" : false
+		}]
+	],
+	
+	"Z1_relic_upg3" : [
+		[1, {
+		  "pool" : [
+			{"weight" : 0.90, "item" : ["goldore", 1] },
+			{"weight" : 0.10, "item" : ["goldbar", 1] }
+		  ],
+		  "poolRounds" : 1,
+		  "allowDuplication" : false
+		}]
+	]
+
+}

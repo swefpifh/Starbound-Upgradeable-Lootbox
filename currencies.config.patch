@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/rsRelicMoney",
+    "value": {
+      "representativeItem": "rsRelicMoney",
+      "playerMax": 5000
+    }
+  }
+]
