@@ -3,7 +3,7 @@
   "itemTags": ["upgradeableRelic"],
   "inventoryIcon": "relic_upg0.png",
   "image": "relic_upg0.png",
-  "maxStack": 100,
+  "maxStack": 500,
   "rarity": "Uncommon",
   "price": 50,
   "tooltipKind": "relicSystem6",
